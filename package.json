@@ -1,0 +1,19 @@
+{
+  "name": "modulo-03",
+  "version": "1.0.0",
+  "description": "Terceiro Modulo LaunchBases",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JonasBezerra/Modulo-03-LaunchBases.git"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
