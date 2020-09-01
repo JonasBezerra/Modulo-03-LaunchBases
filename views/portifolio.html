@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/iconHeader.png" type="image/x-icon">
+    <title>Jonas</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="shortcut icon" href="🤴" type="image/x-icon">
+</head>
+<body>
+    <header> <!-- Cabeçalho do site. Header é uma tag semântica-->
+        <div class="links"> <!-- A Div não tem uma semântica. ela serve para agrupar elementos semelhantes. é tipo uma caixinha com elementos-->
+            <a href="index.html">Sobre</a>
+            <a href="/">Aulas</a>
+        </div>
+    </header>
+
+    <div id="wrapper"> 
+        <h1>Aulas</h1>
+    </div>
+
+    <!--Será Aplicado um grid nessa Section-->
+    <section class="cards">
+        <!--1 card-->
+        <div class="card" id="HN1UjzRSdBk">
+            <div class="card_image-container">
+                <img src="https://img.youtube.com/vi/HN1UjzRSdBk/maxresdefault.jpg" alt="Video-Aula02">
+            </div>
+            <div class="card_content">
+                <p>Desvendando o CSS grid na prática | Maik Brito</p>
+            </div>
+            <div class="card_info">
+                <p>57 minutos</p>
+                <p class="card_price">Free</p>
+            </div>
+        </div>
+        <!--2 card-->
+        <div class="card" id="GykTLqODQuU">
+            <div class="card_image-container">
+                <img src="https://img.youtube.com/vi/GykTLqODQuU/maxresdefault.jpg" alt="Video-Aula01">
+            </div>
+            <div class="card_content">
+                <p>Formulário Animado com JS Puro e CSS Animation | Maik Brito</p>
+            </div>
+            <div class="card_info">
+                <p>57 minutos</p>
+                <p class="card_price">Free</p>
+            </div>
+        </div>
+        <!--3 card-->
+        <div class="card" id="rAzHvYnQ8DY">
+            <div class="card_image-container">
+                <img src="https://img.youtube.com/vi/rAzHvYnQ8DY/maxresdefault.jpg" alt="Video-Aula03">
+            </div>
+            <div class="card_content">
+                <p>Array high Order functions | Maik Brito</p>
+            </div>
+            <div class="card_info">
+                <p>57 minutos</p>
+                <p class="card_price">Free</p>
+            </div>
+        </div>
+        <!--4 card-->
+        <div class="card" id="ghTrp1x_1As">
+            <div class="card_image-container">
+                <img src="https://img.youtube.com/vi/ghTrp1x_1As/maxresdefault.jpg" alt="Video-Aula04">
+            </div>
+            <div class="card_content">
+                <p>O que é API Rest e RestFul | Maik Brito</p>
+            </div>
+            <div class="card_info">
+                <p>57 minutos</p>
+                <p class="card_price">Free</p>
+            </div>
+        </div>
+        <!--5 card-->
+        <div class="card" id="GSqR2i-Pq6o">
+            <div class="card_image-container">
+                <img src="https://img.youtube.com/vi/GSqR2i-Pq6o/maxresdefault.jpg" alt="Video-Aula01">
+            </div>
+            <div class="card_content">
+                <p>Desvendando a variavel THIS Maik Brito</p>
+            </div>
+            <div class="card_info">
+                <p>57 minutos</p>
+                <p class="card_price">Free</p>
+            </div>
+        </div>
+        <!--6 card-->
+        <div class="card" id="2alg7MQ6_sI">
+            <div class="card_image-container">
+                <img src="https://img.youtube.com/vi/2alg7MQ6_sI/maxresdefault.jpg" alt="Video-Aula06">
+            </div>
+            <div class="card_content">
+                <p>Git e github na prática | Maik Brito</p>
+            </div>
+            <div class="card_info">
+                <p>57 minutos</p>
+                <p class="card_price">Free</p>
+            </div>
+        </div>
+    </section>
+
+    <!--MODAL PARA O VIDEO. VAI ABRIR ESSA DIV EM FORMA DE POPUP-->
+    <div class="modal-overlay">
+        <div class="modal">
+            <a class="close-modal">
+                <i class="material-icons">close</i>
+            </a>
+            <div class="modal-content">
+                <!--VIDEO AQUI!.-->
+                <iframe src="" frameborder="0"></iframe>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+	
+</body>
+</html>
+
