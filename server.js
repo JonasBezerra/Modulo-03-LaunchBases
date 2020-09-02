@@ -1,4 +1,4 @@
-const express = require("express") // importando o express para inicializar o servidor
+const express = require("express") // importando o express para inicializar o servidor e criar rotas
 const nunjucks = require("nunjucks")
 const server = express()
 
